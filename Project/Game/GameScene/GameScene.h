@@ -12,6 +12,8 @@
 #include "Sprite/Sprite.h"
 #include "CollisionManager/CollisionManager.h"
 
+#include"../GameObject/Enemy/TransCube/TransCube.h"
+
 class GameScene : public IScene {
 public:
 	/// <summary>
@@ -40,6 +42,7 @@ public:
 	void Draw(GameManager* gameManager)override;
 
 private:
+
 	//TextureManager
 	TextureManager* textureManager_ = nullptr;
 	//Audio
@@ -56,4 +59,7 @@ private:
 	bool isDebugCameraActive_ = false;
 	//ビュープロジェクション
 	ViewProjection viewProjection_{};
+
+	std::unique_ptr<TransCube> transCube_;
+
 };

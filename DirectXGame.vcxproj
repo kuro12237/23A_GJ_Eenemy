@@ -116,6 +116,7 @@ copy "$(WindowsSdkDir)bin\$(TargetPlatformVersion)\x64\dxil.dll" "$(TargetDir)dx
     <ClCompile Include="Engine\Externals\imgui\imgui_widgets.cpp" />
     <ClCompile Include="Engine\Math\MathFunction.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Project\GameObject\Enemy\TransCube\TransCube.cpp" />
     <ClCompile Include="Project\Game\GameManager\GameManager.cpp" />
     <ClCompile Include="Project\Game\GameScene\GameScene.cpp" />
   </ItemGroup>
@@ -147,6 +148,7 @@ copy "$(WindowsSdkDir)bin\$(TargetPlatformVersion)\x64\dxil.dll" "$(TargetDir)dx
     <ClInclude Include="Engine\Externals\imgui\imstb_textedit.h" />
     <ClInclude Include="Engine\Externals\imgui\imstb_truetype.h" />
     <ClInclude Include="Engine\Math\MathFunction.h" />
+    <ClInclude Include="Project\GameObject\Enemy\TransCube\TransCube.h" />
     <ClInclude Include="Project\Game\GameManager\GameManager.h" />
     <ClInclude Include="Project\Game\GameManager\IScene.h" />
     <ClInclude Include="Project\Game\GameScene\GameScene.h" />
