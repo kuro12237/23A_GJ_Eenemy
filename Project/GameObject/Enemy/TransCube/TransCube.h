@@ -19,7 +19,7 @@ public:
 
 private:
 
-	std::unique_ptr<Model> model_;
+	std::unique_ptr<Model> model_=nullptr;
 	WorldTransform worldTransform = {};
 
 	ITransCubeState* state_ = nullptr;

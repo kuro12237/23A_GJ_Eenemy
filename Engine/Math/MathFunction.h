@@ -85,3 +85,38 @@ Matrix4x4 MakeViewportMatrix(float left, float top, float width, float height, f
 
 //ベクトル変換
 Vector3 TransformNormal(const Vector3& vector, const Matrix4x4& matrix);
+/// <summary>
+/// 線形補間
+/// </summary>
+/// <param name="v1"></param>
+/// <param name="v2"></param>
+/// <param name="t"></param>
+/// <returns></returns>
+float Lerp(const float& v1, const float& v2, float t);
+
+/// <summary>
+/// 線形補間
+/// </summary>
+/// <param name="v1"></param>
+/// <param name="v2"></param>
+/// <param name="t"></param>
+/// <returns></returns>
+Vector3 Lerp(const Vector3& v1, const Vector3& v2, float t);
+
+/// <summary>
+/// 球面線形補間
+/// </summary>
+/// <param name="v1"></param>
+/// <param name="v2"></param>
+/// <param name="t"></param>
+/// <returns></returns>
+Vector3 Slerp(const Vector3& v1, const Vector3& v2, float t);
+
+/// <summary>
+/// 最短角度補間
+/// </summary>
+/// <param name="a"></param>
+/// <param name="b"></param>
+/// <param name="t"></param>
+/// <returns></returns>
+float LerpShortAngle(const float& a, const float& b, float t);
