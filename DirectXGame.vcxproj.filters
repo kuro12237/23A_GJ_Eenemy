@@ -70,6 +70,12 @@
     <Filter Include="ソース ファイル\Project\GameObject">
       <UniqueIdentifier>{35c304be-32e9-4e9e-9021-281f740bb219}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Project\GameObject\TransCube">
+      <UniqueIdentifier>{b71a6b31-62c4-4c03-9bbd-980c9fd262be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Project\GameObject\TransCube\state">
+      <UniqueIdentifier>{d437c9db-1bff-465d-a514-a005ceae9aa3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -156,8 +162,14 @@
     <ClCompile Include="Project\Game\GameScene\GameScene.cpp">
       <Filter>ソース ファイル\Project\Game</Filter>
     </ClCompile>
+    <ClCompile Include="Project\GameObject\Enemy\TransCube\state\ITransCubeState.cpp">
+      <Filter>ソース ファイル\Project\GameObject\TransCube\state</Filter>
+    </ClCompile>
     <ClCompile Include="Project\GameObject\Enemy\TransCube\TransCube.cpp">
-      <Filter>ソース ファイル\Project\GameObject</Filter>
+      <Filter>ソース ファイル\Project\GameObject\TransCube</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\GameObject\Enemy\TransCube\state\TransCubeLaser\TransCubeLaserState.cpp">
+      <Filter>ソース ファイル\Project\GameObject\TransCube\state</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -251,8 +263,14 @@
     <ClInclude Include="Project\Game\GameScene\GameScene.h">
       <Filter>ヘッダー ファイル\Project\Game</Filter>
     </ClInclude>
+    <ClInclude Include="Project\GameObject\Enemy\TransCube\state\ITransCubeState.h">
+      <Filter>ソース ファイル\Project\GameObject\TransCube\state</Filter>
+    </ClInclude>
     <ClInclude Include="Project\GameObject\Enemy\TransCube\TransCube.h">
-      <Filter>ヘッダー ファイル</Filter>
+      <Filter>ソース ファイル\Project\GameObject\TransCube</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\GameObject\Enemy\TransCube\state\TransCubeLaser\TransCubeLaserState.h">
+      <Filter>ソース ファイル\Project\GameObject\TransCube\state</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

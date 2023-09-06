@@ -28,14 +28,7 @@ void GameScene::Initialize(GameManager* gameManager) {
 void GameScene::Update(GameManager* gameManager) {
 
 
-
-
-
-
-
-
-
-
+	transCube_.get()->Update();
 
 	//デバッグカメラの更新
 	debugCamera_->Update();
